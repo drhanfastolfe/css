@@ -29,3 +29,16 @@ p
     background-color: rebeccapurple;
     transform: rotate(0.8turn);
 }
+
+body
+{
+    background-color: pink;
+}
+
+@media (min-width: 50em) /*funciona como un if*/
+{
+    body
+    {
+        background-color: blue;
+    }
+}
