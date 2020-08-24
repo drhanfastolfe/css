@@ -1,0 +1,60 @@
+hr
+{
+    border: dashed teal;
+}
+
+.first
+{
+    font-size: 120%;
+    font-weight: bold;
+}
+
+article p:first-child
+{
+    font-size: 120%;
+    font-weight: bold;
+}
+
+a
+{
+    font-weight: bold;
+    color: blue;
+    font-size: 120%;
+}
+
+a:visited
+{
+    color: rebeccapurple;
+}
+
+a:hover
+{
+    color: hotpink;
+}
+
+article p:first-child::first-line
+{
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.box::before
+{
+    content: "This should show bejore the other content. ";
+}
+
+.box::after
+{
+    content: " ➥";
+}
+
+.box::before
+{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 50px;
+    border: 2px solid black;
+    border: dashed;
+    
+}
