@@ -1,0 +1,70 @@
+hr
+{
+    color: teal;
+    border: dashed;
+}
+
+/* li[class]
+{
+    font-size: 200%;
+}
+
+li[class="a"]
+{
+    background-color: yellow;
+}
+
+li[class~="a"]
+{
+    color: red;
+} */
+
+/* li[class*="a"]
+{
+    color: red;
+}
+
+li[class^="a"]
+{
+    font-size: 200%;
+}
+
+li[class$="a"]
+{
+    background-color: yellow;
+} */
+
+/* li[class^="a" i]
+{
+    color: red;
+}
+
+li[class^="a"]
+{
+    background-color: yellow;
+} */
+
+li
+{
+    padding: 20px;
+}
+a
+{
+    border: 5px solid grey;
+    padding: 10px 20px;
+}
+
+a[title]
+{
+    border-color: pink;
+}
+
+a[href*="contact"]
+{
+    border-color: orange;
+}
+
+a[href^="https"]
+{
+    border-color: green;
+}
