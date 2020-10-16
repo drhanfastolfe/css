@@ -1,0 +1,10 @@
+Crea una página para una agencia de viajes. Para ello diseña una página index que muestre el nombre de la agencia de viajes y una lista de fotografias con los 5 destinos mas demandados al maximo tamaño de la página. Cada imagen deberá enlazar a la página correspondiente del viaje donde deberán aparecer los detalles del mismo.
+
+En la página del destino deberá aparecer:
+
+Nombre del destino. Estilo subrayado, color rojo a 25px de tamaño. Fondo amarillo
+Fotografía anterior y dos mas. ajustalas para que se vean todas en la misma linea. arade un margen a las fotos para que no esten pegadas.
+Descripción del viaje. Ponla en azul, centrada y en cursiva.
+Precio del viaje en negrita, color rosa y fuente "Courier New"
+botón de comprar (sin acción)
+enlace para volver a la página principal
