@@ -1,0 +1,30 @@
+.titulo-viaje
+{
+    text-decoration-line: underline;
+    color: red;
+    font-size: 25px;
+}
+
+body
+{
+    background-color: yellow;
+}
+
+.imagen-viaje
+{
+    margin: 10px;
+}
+
+.descripcion-viaje
+{
+    background-color: blue;
+    text-align: center;
+    font-style: italic;
+}
+
+.precio-viaje
+{
+    font-weight: bold;
+    color: pink;
+    font-family: 'Courier New';
+}
