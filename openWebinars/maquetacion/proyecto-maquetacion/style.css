@@ -10,10 +10,23 @@ body, h1, h2, h3, h4, h5, h6, p
     margin: 0px;    
 }
 
+body 
+{
+    color: #121867;
+    font-family: "Lato", sans-serif;
+    font-weight: bolder;
+}
+
+nav,.container,footer {
+    max-width: 1200px;
+    min-width: 576px;
+    margin:0px auto;
+  }
+
 nav
 {
-    background-color: blue;
-    color: palevioletred;
+    background-color: #121867;
+    color: rgb(243, 55, 132);
     text-align: left;
     display: block;
     position: sticky;
@@ -33,6 +46,7 @@ nav .nav-item
 .image img
 {
     width: 100%;
+    opacity: 0.7;
 }
 
 header
@@ -44,14 +58,82 @@ header
 aside
 {
     display: inline-block;
-    background-color: black;
-    color: yellow;
+    background-color: #121867;
+    color: rgb(243, 55, 132);
     border-radius: 20px;
     padding: 15px;
     z-index: 10;
     position: absolute;
-    top: 35%;
-    right: 20%;
+    top: 30%;
+    right: 15%;
     width: 20%;
     height: 15%;
+}
+
+aside p
+{
+    font-weight: bold;
+    padding-top: 5%;
+}
+
+aside button
+{
+    padding: 2% 4%;
+    margin-top: 2%;
+    background-color: rgb(243, 55, 132);
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.container .cards
+{
+    text-align: center;
+    position: relative;
+}
+
+.card
+{
+    display: inline-block;
+    margin-top: 5%;
+    padding-bottom: 3%;
+
+}
+
+.card:nth-child(3)
+{
+    border-top: 3px solid rgb(243, 55, 132) ;
+    padding-top: 3%;
+    margin-top: 2% ;
+    border-bottom: 3px solid rgb(243, 55, 132);
+}
+
+.card h3
+{
+    color: 121867;
+}
+
+.card img
+{
+    width: 40%;
+}
+
+.bottle
+{
+    margin: 30px auto;
+    width: 70%;
+    overflow-y: auto;
+}
+
+.bottle img
+{
+    float: left;
+    margin-left: 10%;
+    width: 20%;
+}
+
+.bottle p
+{
+    float: left;
+    width: 50%;
 }
