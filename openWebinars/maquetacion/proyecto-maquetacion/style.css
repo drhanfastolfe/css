@@ -136,4 +136,27 @@ aside button
 {
     float: left;
     width: 50%;
+    margin: 2% 0%;
+    text-align: justify;
+}
+
+.bottle p::first-letter
+{
+    border-bottom:1px solid #121867;
+    border-right:1px solid #121867;
+    font-size: 2em;
+    margin-right: 10px;
+    padding-right: 10px;
+    color: rgb(243, 55, 132);
+}
+
+.gallery
+{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+.gallery img
+{
+    width: 18%;
 }
