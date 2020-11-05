@@ -160,3 +160,33 @@ aside button
 {
     width: 18%;
 }
+
+footer
+{
+    position: relative;
+    background-color: #121867;
+    color: rgb(243, 55, 132);
+}
+
+footer address
+{
+    padding: 15px;
+    display: inline-block;
+}
+
+footer>p
+{
+    display: inline-block;
+    margin: 0% 15%;
+}
+
+footer .social
+{
+    display: inline-block;
+}
+
+footer .social img
+{
+    width: 12%;
+    margin: auto;
+}
