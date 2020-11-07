@@ -1,0 +1,41 @@
+.saludo
+{
+    color: yellow;
+    box-shadow: 2px 2px 10px 5px blue;
+    font-size: 25px;
+}
+
+.titulo
+{
+    color: red;
+    border: 1px solid yellow;
+    box-shadow: -10px -10px 5px grey;
+    font-size: 30px;
+}
+
+.primero
+{
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    border: 2px solid blue;
+    box-shadow: -5px -5px 5px 5px orange;
+    position: relative;
+    left: 50%;
+}
+
+.segundo
+{
+    background: linear-gradient(45deg, blue, red);
+    width: 150px;
+    height: 150px;
+}
+
+.tercero
+{
+    background-image: url('fondo.png');
+    width: 422px;
+    height: 130px;
+    box-shadow: 0px 8px 22px 2px black;
+    margin-top: 20px;
+}
