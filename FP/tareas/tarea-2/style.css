@@ -1,0 +1,50 @@
+.solucion ol li:nth-child(1)
+{
+    white-space: nowrap;
+    width: 350px;
+    border: 1px solid black;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.solucion ol li:nth-child(2):hover
+{
+    opacity: 0;
+}
+
+.solucion ol li:nth-child(3)
+{
+    width: 350px;
+    border: 1px dotted red;
+    word-break: break-all;
+}
+
+.solucion ol li:nth-child(4) .verticalA
+{
+    writing-mode: vertical-rl;
+}
+
+.solucion ol li:nth-child(4) .verticalB
+{
+    writing-mode: vertical-lr;
+}
+
+.solucion ol li:nth-child(5) .verticalA
+{
+    writing-mode: vertical-rl;
+}
+
+.solucion ol li:nth-child(5) .verticalB
+{
+    writing-mode: vertical-lr;
+}
+
+.solucion ol li:nth-child(5) .verticalA:hover
+{
+    color: red;
+}
+
+.solucion ol li:nth-child(5) .verticalB
+{
+    color: blue;
+}
